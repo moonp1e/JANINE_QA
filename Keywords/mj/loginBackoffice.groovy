@@ -19,21 +19,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
 
 public class loginBackoffice {
-	
+
 	@Keyword
 	public void login(){
-		
+
 		WebUI.openBrowser('')
-		
+
 		WebUI.maximizeWindow()
-		
+
 		WebUI.navigateToUrl('http://dev-admin.ucf88.com/login')
-		
+
 		WebUI.setText(findTestObject('Backoffice/login_page/input_username'), 'janine')
-		
+
 		WebUI.setEncryptedText(findTestObject('Backoffice/login_page/input_password'), 'CSt51UwWECc=')
-		
+
 		WebUI.click(findTestObject('Backoffice/login_page/button_login'))
 	}
 }
-	

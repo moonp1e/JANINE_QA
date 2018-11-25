@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+100_match,Chrome 70.0.3538.102,,2018-11-24 00:00:27,2018-11-24 00:01:01,34.070s,FAILED
+,,,,,,
+Test Cases/Backoffice/create_arena/1_arena,Chrome 70.0.3538.102,,2018-11-24 00:00:27,2018-11-24 00:00:48,20.326s,FAILED
+mj.loginBackoffice.login,Chrome 70.0.3538.102,,2018-11-24 00:00:28,2018-11-24 00:00:48,19.523s,FAILED
+,,,,,,
+Test Cases/Backoffice/create_match/100_match,Chrome 70.0.3538.102,,2018-11-24 00:00:48,2018-11-24 00:00:59,11.714s,FAILED
+"Statement - For ([loop = 1, loop <= 5, (loop++)])",Chrome 70.0.3538.102,,2018-11-24 00:00:49,2018-11-24 00:00:59,10.894s,FAILED

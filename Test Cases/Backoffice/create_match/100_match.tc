@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>1_match</name>
+   <name>100_match</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b7a2ca9f-8c51-4552-98d0-fefc003fa96f</testCaseGuid>
@@ -10,7 +10,7 @@
       <description></description>
       <id>c71abf00-3ef3-46b4-8d72-725dfcab9369</id>
       <masked>false</masked>
-      <name>Arena_Name</name>
+      <name>Acronym</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>

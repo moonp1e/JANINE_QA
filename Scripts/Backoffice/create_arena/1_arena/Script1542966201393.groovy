@@ -13,13 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'mjpack.loginBackoffice.login'()
+CustomKeywords.'mj.loginBackoffice.login'()
 
 WebUI.mouseOver(findTestObject('Backoffice/headers/span_betting'))
 
 WebUI.click(findTestObject('Backoffice/headers/span_arena'))
 
 WebUI.click(findTestObject('Backoffice/arena_mgmt/button_create_arena'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Backoffice/arena_mgmt/input_arena_name'), Arena_Name)
 
