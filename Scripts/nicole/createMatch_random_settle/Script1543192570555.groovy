@@ -87,11 +87,11 @@ WebUI.switchToWindowIndex(0)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-List<WebElement> buttonText = []
+List<WebElement> buttonText
 
 for (int i = 1; i < 5; i++) {
 	WebElement button = driver.findElement(By.xpath('//*[@id="resultContainer"]/div[2]/button['+i+']'))
-	buttonText = button.getText()
+	List<WebElement> buttonText = button.getText()
 }
 
 System.out.println(buttonText)
