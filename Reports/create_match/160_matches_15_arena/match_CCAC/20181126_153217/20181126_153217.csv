@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+match_CCAC,Chrome 70.0.3538.102,,2018-11-26 15:32:21,2018-11-26 15:33:11,50.254s,FAILED
+,,,,,,
+Test Cases/Backoffice/create_match/create_match,Chrome 70.0.3538.102,,2018-11-26 15:32:22,2018-11-26 15:33:09,47.132s,FAILED
+mj.loginBackoffice.login,Chrome 70.0.3538.102,,2018-11-26 15:32:23,2018-11-26 15:33:08,45.176s,PASSED
+"Statement - For ([loop = 1, loop <= 24, (loop++)])",Chrome 70.0.3538.102,,2018-11-26 15:33:08,2018-11-26 15:33:09,0.595s,FAILED

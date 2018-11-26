@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+160_match,Chrome 70.0.3538.102,,2018-11-26 14:10:26,2018-11-26 14:12:33,2m - 6.990s,PASSED
+,,,,,,
+Test Cases/Backoffice/create_match/100_match,Chrome 70.0.3538.102,,2018-11-26 14:10:27,2018-11-26 14:12:32,2m - 5.703s,PASSED
+mj.loginBackoffice.login,Chrome 70.0.3538.102,,2018-11-26 14:10:27,2018-11-26 14:10:36,9.396s,PASSED
+"Statement - For ([loop = 1, loop <= 12, (loop++)])",Chrome 70.0.3538.102,,2018-11-26 14:10:36,2018-11-26 14:12:32,1m - 55.789s,PASSED

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="create_arena" time="11" tests="1" failures="0" errors="0">
+   <testsuite name="create_arena" tests="1" failures="0" errors="0" time="11" timestamp="2018-11-26 08:44:00" hostname="janine.bautista - J9" id="Test Suites/create_arena/create_arena">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\janine.bautista\\git\\JANINE_QA\\Reports\\create_arena\\create_arena\\20181126_084359"/>
+         <property name="logFiles" value="C:\\Users\\janine.bautista\\git\\JANINE_QA\\Reports\\create_arena\\create_arena\\20181126_084359\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="janine.bautista - J9"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="172.16.8.107"/>
+         <property name="sessionId" value="4954e8219add87f6db898eed639c6c34"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Backoffice/create_arena/1_arena" classname="Test Cases/Backoffice/create_arena/1_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-26 08:44:00 - [TEST_CASE][PASSED] - Test Cases/Backoffice/create_arena/1_arena: Test Cases/Backoffice/create_arena/1_arena
+
+2018-11-26 08:44:00 - [TEST_STEP][PASSED] - mj.loginBackoffice.login: mj.loginBackoffice.login is PASSED
+
+2018-11-26 08:44:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 08:44:04 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 08:44:05 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-26 08:44:05 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/Backoffice/login_page/input_username'
+
+2018-11-26 08:44:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/login_page/input_password'
+
+2018-11-26 08:44:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/login_page/button_login' is clicked on
+
+2018-11-26 08:44:07 - [MESSAGE][PASSED] - mj.loginBackoffice.login is PASSED
+
+2018-11-26 08:44:07 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 08:44:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 08:44:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 08:44:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 08:44:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 08:44:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 08:44:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-26 08:44:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-26 08:44:10 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 08:44:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 08:44:10 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 08:44:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 08:44:10 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 08:44:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 08:44:10 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 08:44:11 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 08:44:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on
+
+2018-11-26 08:44:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-26 08:44:00 - [TEST_SUITE][PASSED] - create_arena: Test Cases/Backoffice/create_arena/1_arena]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

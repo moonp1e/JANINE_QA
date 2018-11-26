@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+create_arena,Chrome 70.0.3538.102,,2018-11-26 08:43:16,2018-11-26 08:43:37,21.585s,FAILED
+,,,,,,
+Test Cases/Backoffice/create_arena/1_arena,Chrome 70.0.3538.102,,2018-11-26 08:43:16,2018-11-26 08:43:36,20.557s,FAILED
+mj.loginBackoffice.login,Chrome 70.0.3538.102,,2018-11-26 08:43:16,2018-11-26 08:43:31,14.402s,PASSED
+mouseOver,Chrome 70.0.3538.102,,2018-11-26 08:43:31,2018-11-26 08:43:33,2.522s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-26 08:43:33,2018-11-26 08:43:34,0.862s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-26 08:43:34,2018-11-26 08:43:34,0.187s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-26 08:43:34,2018-11-26 08:43:36,2.021s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-26 08:43:36,2018-11-26 08:43:36,0.102s,FAILED

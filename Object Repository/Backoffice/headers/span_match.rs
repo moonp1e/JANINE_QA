@@ -6,6 +6,10 @@
    <elementGuidId>fa541814-21f9-49f1-88d1-ec0fdba188e0</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a [@id=&quot;nav_Match&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[@id='nav_Match']/span</value>
       </entry>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a [@id=&quot;nav_Match&quot;]/span [contains (text(), 'Match')]</value>
+      <value>//a [@id=&quot;nav_Match&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

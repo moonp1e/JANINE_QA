@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="create_arena_15" time="184" tests="14" failures="1" errors="0">
+   <testsuite name="create_arena_15" tests="14" failures="1" errors="0" time="184" timestamp="2018-11-26 09:16:25" hostname="janine.bautista - J9" id="Test Suites/create_arena/create_arena_15">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\janine.bautista\\git\\JANINE_QA\\Reports\\create_arena\\create_arena_15\\20181126_091624"/>
+         <property name="logFiles" value="C:\\Users\\janine.bautista\\git\\JANINE_QA\\Reports\\create_arena\\create_arena_15\\20181126_091624\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="janine.bautista - J9"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="172.16.8.107"/>
+         <property name="sessionId" value="4b1a5788da298393b3aa256785b86b9a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Backoffice/create_arena/1_arena" classname="Test Cases/Backoffice/create_arena/1_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-26 09:16:25 - [TEST_CASE][PASSED] - Test Cases/Backoffice/create_arena/1_arena: Test Cases/Backoffice/create_arena/1_arena
+
+2018-11-26 09:16:26 - [TEST_STEP][PASSED] - mj.loginBackoffice.login: mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:16:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 09:16:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 09:16:32 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-26 09:16:32 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/Backoffice/login_page/input_username'
+
+2018-11-26 09:16:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/login_page/input_password'
+
+2018-11-26 09:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/login_page/button_login' is clicked on
+
+2018-11-26 09:16:34 - [MESSAGE][PASSED] - mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:16:34 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:16:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:16:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:16:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-26 09:16:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-26 09:16:37 - [TEST_STEP][PASSED] - setText: Text 'ALIXANDRA SPORTS COMPLEX' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:16:38 - [MESSAGE][PASSED] - Text 'ALIXANDRA SPORTS COMPLEX' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:16:38 - [TEST_STEP][PASSED] - setText: Text 'BAKBAKAN (3-4-5) 2ND SET | SEMIS' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:16:38 - [MESSAGE][PASSED] - Text 'BAKBAKAN (3-4-5) 2ND SET | SEMIS' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:16:38 - [TEST_STEP][PASSED] - setText: Text 'ALIXANDRA SPORTS COMPLEX - ASC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:16:38 - [MESSAGE][PASSED] - Text 'ALIXANDRA SPORTS COMPLEX - ASC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:16:38 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:16:38 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:16:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on
+
+2018-11-26 09:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/create_arena/1_arena" classname="Test Cases/Backoffice/create_arena/1_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-26 09:16:39 - [TEST_CASE][PASSED] - Test Cases/Backoffice/create_arena/1_arena: Test Cases/Backoffice/create_arena/1_arena
+
+2018-11-26 09:16:39 - [TEST_STEP][PASSED] - mj.loginBackoffice.login: mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:16:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-26 09:16:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 09:16:43 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 09:16:44 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-26 09:16:44 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/Backoffice/login_page/input_username'
+
+2018-11-26 09:16:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/login_page/input_password'
+
+2018-11-26 09:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/login_page/button_login' is clicked on
+
+2018-11-26 09:16:46 - [MESSAGE][PASSED] - mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:16:46 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:16:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:16:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:16:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-26 09:16:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-26 09:16:49 - [TEST_STEP][PASSED] - setText: Text 'BALAGTAS COCKPIT' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:16:49 - [MESSAGE][PASSED] - Text 'BALAGTAS COCKPIT' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:16:49 - [TEST_STEP][PASSED] - setText: Text 'SALPUKAN-BATANGAS |3 STAG ELIMS' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:16:49 - [MESSAGE][PASSED] - Text 'SALPUKAN-BATANGAS |3 STAG ELIMS' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:16:49 - [TEST_STEP][PASSED] - setText: Text 'BACOLOR COCKPIT ARENA - BC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:16:49 - [MESSAGE][PASSED] - Text 'BACOLOR COCKPIT ARENA - BC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:16:49 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:16:49 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:16:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on
+
+2018-11-26 09:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/create_arena/1_arena" classname="Test Cases/Backoffice/create_arena/1_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-26 09:16:50 - [TEST_CASE][PASSED] - Test Cases/Backoffice/create_arena/1_arena: Test Cases/Backoffice/create_arena/1_arena
+
+2018-11-26 09:16:50 - [TEST_STEP][PASSED] - mj.loginBackoffice.login: mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:16:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-26 09:16:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 09:16:54 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 09:16:55 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-26 09:16:55 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/Backoffice/login_page/input_username'
+
+2018-11-26 09:16:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/login_page/input_password'
+
+2018-11-26 09:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/login_page/button_login' is clicked on
+
+2018-11-26 09:16:57 - [MESSAGE][PASSED] - mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:16:57 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:16:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:16:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:16:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:16:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:16:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-26 09:17:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-26 09:17:00 - [TEST_STEP][PASSED] - setText: Text 'ROLIGON MEGA COCKPIT' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:17:01 - [MESSAGE][PASSED] - Text 'ROLIGON MEGA COCKPIT' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:17:01 - [TEST_STEP][PASSED] - setText: Text 'NATIONAL BAKBAKAN 2018 DERBY | METRO MANILA (LPGBA) | SEMIS' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:17:01 - [MESSAGE][PASSED] - Text 'NATIONAL BAKBAKAN 2018 DERBY | METRO MANILA (LPGBA) | SEMIS' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:17:01 - [TEST_STEP][PASSED] - setText: Text 'ROLIGON MEGA COCKPIT - RMC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:17:01 - [MESSAGE][PASSED] - Text 'ROLIGON MEGA COCKPIT - RMC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:17:01 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:17:01 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:17:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on
+
+2018-11-26 09:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/create_arena/1_arena" classname="Test Cases/Backoffice/create_arena/1_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-26 09:17:02 - [TEST_CASE][PASSED] - Test Cases/Backoffice/create_arena/1_arena: Test Cases/Backoffice/create_arena/1_arena
+
+2018-11-26 09:17:02 - [TEST_STEP][PASSED] - mj.loginBackoffice.login: mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:17:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-26 09:17:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 09:17:06 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 09:17:07 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-26 09:17:07 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/Backoffice/login_page/input_username'
+
+2018-11-26 09:17:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/login_page/input_password'
+
+2018-11-26 09:17:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/login_page/button_login' is clicked on
+
+2018-11-26 09:17:09 - [MESSAGE][PASSED] - mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:17:09 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:17:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:17:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:17:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:17:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:17:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:17:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-26 09:17:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-26 09:17:12 - [TEST_STEP][PASSED] - setText: Text 'DINALUPIHAN COLISEUM' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:17:12 - [MESSAGE][PASSED] - Text 'DINALUPIHAN COLISEUM' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:17:12 - [TEST_STEP][PASSED] - setText: Text '"INVITATIONAL" 5 STAG DERBY ' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:17:13 - [MESSAGE][PASSED] - Text '"INVITATIONAL" 5 STAG DERBY ' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:17:13 - [TEST_STEP][PASSED] - setText: Text 'DINALUPIHAN COLISEUM - DC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:17:13 - [MESSAGE][PASSED] - Text 'DINALUPIHAN COLISEUM - DC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:17:13 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:17:13 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:17:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on
+
+2018-11-26 09:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/create_arena/1_arena" classname="Test Cases/Backoffice/create_arena/1_arena" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'BACOLOR COCKPIT ARENA' of object 'Object Repository/Backoffice/arena_mgmt/input_arena_name' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Backoffice/arena_mgmt/input_arena_name' located by 'By.xpath: //input [@id=&quot;name&quot;]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1542966201393.run(Script1542966201393.groovy:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543194984063.run(TempTestSuite1543194984063.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-26 09:17:14 - [TEST_CASE][FAILED] - Test Cases/Backoffice/create_arena/1_arena: Test Cases/Backoffice/create_arena/1_arena FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'BACOLOR COCKPIT ARENA' of object 'Object Repository/Backoffice/arena_mgmt/input_arena_name' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Backoffice/arena_mgmt/input_arena_name' located by 'By.xpath: //input [@id="name"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1542966201393.run(Script1542966201393.groovy:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543194984063.run(TempTestSuite1543194984063.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-26 09:17:14 - [TEST_STEP][PASSED] - mj.loginBackoffice.login: mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:17:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-26 09:17:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 09:17:18 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 09:17:19 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-26 09:17:19 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/Backoffice/login_page/input_username'
+
+2018-11-26 09:17:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/login_page/input_password'
+
+2018-11-26 09:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/login_page/button_login' is clicked on
+
+2018-11-26 09:17:21 - [MESSAGE][PASSED] - mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:17:21 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:17:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:17:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:17:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:17:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:17:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-26 09:17:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-26 09:17:24 - [TEST_STEP][FAILED] - setText: Unable to set text 'BACOLOR COCKPIT ARENA' of object 'Object Repository/Backoffice/arena_mgmt/input_arena_name' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Backoffice/arena_mgmt/input_arena_name' located by 'By.xpath: //input [@id="name"]' not found)
+
+2018-11-26 09:17:36 - [MESSAGE][FAILED] - Unable to set text 'BACOLOR COCKPIT ARENA' of object 'Object Repository/Backoffice/arena_mgmt/input_arena_name' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Backoffice/arena_mgmt/input_arena_name' located by 'By.xpath: //input [@id="name"]' not found)]]></system-out>
+         <system-err><![CDATA[2018-11-26 09:17:14 - [TEST_CASE][FAILED] - Test Cases/Backoffice/create_arena/1_arena: Test Cases/Backoffice/create_arena/1_arena FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'BACOLOR COCKPIT ARENA' of object 'Object Repository/Backoffice/arena_mgmt/input_arena_name' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Backoffice/arena_mgmt/input_arena_name' located by 'By.xpath: //input [@id="name"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1542966201393.run(Script1542966201393.groovy:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543194984063.run(TempTestSuite1543194984063.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/create_arena/1_arena" classname="Test Cases/Backoffice/create_arena/1_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-26 09:17:36 - [TEST_CASE][PASSED] - Test Cases/Backoffice/create_arena/1_arena: Test Cases/Backoffice/create_arena/1_arena
+
+2018-11-26 09:17:36 - [TEST_STEP][PASSED] - mj.loginBackoffice.login: mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:17:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-26 09:17:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 09:17:40 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 09:17:41 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-26 09:17:41 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/Backoffice/login_page/input_username'
+
+2018-11-26 09:17:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/login_page/input_password'
+
+2018-11-26 09:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/login_page/button_login' is clicked on
+
+2018-11-26 09:17:43 - [MESSAGE][PASSED] - mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:17:43 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:17:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:17:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:17:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-26 09:17:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-26 09:17:46 - [TEST_STEP][PASSED] - setText: Text 'PANGASINAN COLISEUM' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:17:46 - [MESSAGE][PASSED] - Text 'PANGASINAN COLISEUM' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:17:46 - [TEST_STEP][PASSED] - setText: Text 'SALPUKAN BANGUS PANGASINAN DERBY| 3 STAG| SEMIS' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:17:46 - [MESSAGE][PASSED] - Text 'SALPUKAN BANGUS PANGASINAN DERBY| 3 STAG| SEMIS' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:17:46 - [TEST_STEP][PASSED] - setText: Text 'PANGASINAN COLISEUM - PC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:17:47 - [MESSAGE][PASSED] - Text 'PANGASINAN COLISEUM - PC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:17:47 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:17:47 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:17:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on
+
+2018-11-26 09:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/create_arena/1_arena" classname="Test Cases/Backoffice/create_arena/1_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-26 09:17:47 - [TEST_CASE][PASSED] - Test Cases/Backoffice/create_arena/1_arena: Test Cases/Backoffice/create_arena/1_arena
+
+2018-11-26 09:17:47 - [TEST_STEP][PASSED] - mj.loginBackoffice.login: mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:17:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-26 09:17:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 09:17:51 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 09:17:52 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-26 09:17:52 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/Backoffice/login_page/input_username'
+
+2018-11-26 09:17:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/login_page/input_password'
+
+2018-11-26 09:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/login_page/button_login' is clicked on
+
+2018-11-26 09:17:54 - [MESSAGE][PASSED] - mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:17:54 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:17:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:17:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:17:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-26 09:17:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-26 09:17:57 - [TEST_STEP][PASSED] - setText: Text 'JC CLAY SPORTS COMPLEX' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:17:57 - [MESSAGE][PASSED] - Text 'JC CLAY SPORTS COMPLEX' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:17:57 - [TEST_STEP][PASSED] - setText: Text 'BAKBAKAN 2018 DERBY | UIGBA | SEMISJC ' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:17:58 - [MESSAGE][PASSED] - Text 'BAKBAKAN 2018 DERBY | UIGBA | SEMISJC ' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:17:58 - [TEST_STEP][PASSED] - setText: Text 'JC CLAY SPORTS COMPLEX - JCSC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:17:58 - [MESSAGE][PASSED] - Text 'JC CLAY SPORTS COMPLEX - JCSC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:17:58 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:17:58 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:17:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on
+
+2018-11-26 09:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/create_arena/1_arena" classname="Test Cases/Backoffice/create_arena/1_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-26 09:17:59 - [TEST_CASE][PASSED] - Test Cases/Backoffice/create_arena/1_arena: Test Cases/Backoffice/create_arena/1_arena
+
+2018-11-26 09:17:59 - [TEST_STEP][PASSED] - mj.loginBackoffice.login: mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:17:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-26 09:18:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 09:18:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 09:18:04 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-26 09:18:04 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/Backoffice/login_page/input_username'
+
+2018-11-26 09:18:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/login_page/input_password'
+
+2018-11-26 09:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/login_page/button_login' is clicked on
+
+2018-11-26 09:18:06 - [MESSAGE][PASSED] - mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:18:06 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:18:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:18:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:18:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-26 09:18:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-26 09:18:09 - [TEST_STEP][PASSED] - setText: Text 'DRAGON COCKPIT' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:18:09 - [MESSAGE][PASSED] - Text 'DRAGON COCKPIT' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:18:09 - [TEST_STEP][PASSED] - setText: Text '3 COCK ELIMINATION' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:18:09 - [MESSAGE][PASSED] - Text '3 COCK ELIMINATION' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:18:09 - [TEST_STEP][PASSED] - setText: Text 'DRAGON COCKPIT - DC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:18:09 - [MESSAGE][PASSED] - Text 'DRAGON COCKPIT - DC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:18:09 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:18:09 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:18:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on
+
+2018-11-26 09:18:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/create_arena/1_arena" classname="Test Cases/Backoffice/create_arena/1_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-26 09:18:10 - [TEST_CASE][PASSED] - Test Cases/Backoffice/create_arena/1_arena: Test Cases/Backoffice/create_arena/1_arena
+
+2018-11-26 09:18:10 - [TEST_STEP][PASSED] - mj.loginBackoffice.login: mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:18:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-26 09:18:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 09:18:14 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 09:18:15 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-26 09:18:15 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/Backoffice/login_page/input_username'
+
+2018-11-26 09:18:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/login_page/input_password'
+
+2018-11-26 09:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/login_page/button_login' is clicked on
+
+2018-11-26 09:18:17 - [MESSAGE][PASSED] - mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:18:17 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:18:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:18:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:18:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:18:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:18:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-26 09:18:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-26 09:18:20 - [TEST_STEP][PASSED] - setText: Text 'STA. MONICA COCKPIT' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:18:20 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:18:20 - [TEST_STEP][PASSED] - setText: Text 'SMC COCKFIGHTERS CLUB 1-COCK FASTEST KILL' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:18:20 - [MESSAGE][PASSED] - Text 'SMC COCKFIGHTERS CLUB 1-COCK FASTEST KILL' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:18:20 - [TEST_STEP][PASSED] - setText: Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:18:21 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:18:21 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:18:21 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:18:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on
+
+2018-11-26 09:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/create_arena/1_arena" classname="Test Cases/Backoffice/create_arena/1_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-26 09:18:21 - [TEST_CASE][PASSED] - Test Cases/Backoffice/create_arena/1_arena: Test Cases/Backoffice/create_arena/1_arena
+
+2018-11-26 09:18:21 - [TEST_STEP][PASSED] - mj.loginBackoffice.login: mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:18:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-26 09:18:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 09:18:25 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 09:18:26 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-26 09:18:26 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/Backoffice/login_page/input_username'
+
+2018-11-26 09:18:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/login_page/input_password'
+
+2018-11-26 09:18:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/login_page/button_login' is clicked on
+
+2018-11-26 09:18:28 - [MESSAGE][PASSED] - mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:18:28 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:18:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:18:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:18:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:18:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-26 09:18:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-26 09:18:31 - [TEST_STEP][PASSED] - setText: Text 'AZNAR TALISAY SPORTS COMPLEX' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:18:31 - [MESSAGE][PASSED] - Text 'AZNAR TALISAY SPORTS COMPLEX' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:18:31 - [TEST_STEP][PASSED] - setText: Text 'ATSC BAKBAKAN 12 STAG DERBY | 4 STAG SEMIMS' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:18:32 - [MESSAGE][PASSED] - Text 'ATSC BAKBAKAN 12 STAG DERBY | 4 STAG SEMIMS' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:18:32 - [TEST_STEP][PASSED] - setText: Text 'AZNAR TALISAY SPORTS COMPLEX - ATSC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:18:32 - [MESSAGE][PASSED] - Text 'AZNAR TALISAY SPORTS COMPLEX - ATSC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:18:32 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:18:32 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:18:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on
+
+2018-11-26 09:18:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/create_arena/1_arena" classname="Test Cases/Backoffice/create_arena/1_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-26 09:18:33 - [TEST_CASE][PASSED] - Test Cases/Backoffice/create_arena/1_arena: Test Cases/Backoffice/create_arena/1_arena
+
+2018-11-26 09:18:33 - [TEST_STEP][PASSED] - mj.loginBackoffice.login: mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:18:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-26 09:18:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 09:18:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 09:18:37 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-26 09:18:37 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/Backoffice/login_page/input_username'
+
+2018-11-26 09:18:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/login_page/input_password'
+
+2018-11-26 09:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/login_page/button_login' is clicked on
+
+2018-11-26 09:18:39 - [MESSAGE][PASSED] - mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:18:39 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:18:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:18:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:18:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-26 09:18:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-26 09:18:42 - [TEST_STEP][PASSED] - setText: Text 'CAMALIG COCKPIT AND SPORT COMPLEX INC.' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:18:43 - [MESSAGE][PASSED] - Text 'CAMALIG COCKPIT AND SPORT COMPLEX INC.' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:18:43 - [TEST_STEP][PASSED] - setText: Text '1 COCK SUPER ULUTAN FAST KILL' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:18:43 - [MESSAGE][PASSED] - Text '1 COCK SUPER ULUTAN FAST KILL' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:18:43 - [TEST_STEP][PASSED] - setText: Text 'CAMALIG COCKPIT AND SPORT COMPLEX INC - CCAC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:18:43 - [MESSAGE][PASSED] - Text 'CAMALIG COCKPIT AND SPORT COMPLEX INC - CCAC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:18:43 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:18:43 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:18:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on
+
+2018-11-26 09:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/create_arena/1_arena" classname="Test Cases/Backoffice/create_arena/1_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-26 09:18:44 - [TEST_CASE][PASSED] - Test Cases/Backoffice/create_arena/1_arena: Test Cases/Backoffice/create_arena/1_arena
+
+2018-11-26 09:18:44 - [TEST_STEP][PASSED] - mj.loginBackoffice.login: mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:18:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-26 09:18:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 09:18:48 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 09:18:48 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-26 09:18:49 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/Backoffice/login_page/input_username'
+
+2018-11-26 09:18:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/login_page/input_password'
+
+2018-11-26 09:18:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/login_page/button_login' is clicked on
+
+2018-11-26 09:18:51 - [MESSAGE][PASSED] - mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:18:51 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:18:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:18:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:18:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:18:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:18:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-26 09:18:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-26 09:18:54 - [TEST_STEP][PASSED] - setText: Text 'MALVAR COCKPIT' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:18:54 - [MESSAGE][PASSED] - Text 'MALVAR COCKPIT' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:18:54 - [TEST_STEP][PASSED] - setText: Text 'FIGBA 12-STAG BAKBAKAN DERBY | 5 STAG FINALS | PRE-FINALS 1 (5PTS)' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:18:54 - [MESSAGE][PASSED] - Text 'FIGBA 12-STAG BAKBAKAN DERBY | 5 STAG FINALS | PRE-FINALS 1 (5PTS)' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:18:54 - [TEST_STEP][PASSED] - setText: Text 'MALVAR COCKPIT - MC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:18:54 - [MESSAGE][PASSED] - Text 'MALVAR COCKPIT - MC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:18:54 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:18:54 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:18:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on
+
+2018-11-26 09:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/create_arena/1_arena" classname="Test Cases/Backoffice/create_arena/1_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-26 09:18:55 - [TEST_CASE][PASSED] - Test Cases/Backoffice/create_arena/1_arena: Test Cases/Backoffice/create_arena/1_arena
+
+2018-11-26 09:18:55 - [TEST_STEP][PASSED] - mj.loginBackoffice.login: mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:18:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-26 09:18:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 09:18:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 09:19:00 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-26 09:19:00 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/Backoffice/login_page/input_username'
+
+2018-11-26 09:19:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/login_page/input_password'
+
+2018-11-26 09:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/login_page/button_login' is clicked on
+
+2018-11-26 09:19:02 - [MESSAGE][PASSED] - mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:19:02 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:19:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:19:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:19:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:19:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:19:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-26 09:19:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-26 09:19:05 - [TEST_STEP][PASSED] - setText: Text 'SAN JUAN COLISEUM' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:19:05 - [MESSAGE][PASSED] - Text 'SAN JUAN COLISEUM' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:19:05 - [TEST_STEP][PASSED] - setText: Text '4TH 3-STAG ELIMS' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:19:05 - [MESSAGE][PASSED] - Text '4TH 3-STAG ELIMS' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:19:05 - [TEST_STEP][PASSED] - setText: Text 'SAN JUAN COLISEUM - SJC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:19:05 - [MESSAGE][PASSED] - Text 'SAN JUAN COLISEUM - SJC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:19:05 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:19:06 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:19:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on
+
+2018-11-26 09:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/create_arena/1_arena" classname="Test Cases/Backoffice/create_arena/1_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-26 09:19:06 - [TEST_CASE][PASSED] - Test Cases/Backoffice/create_arena/1_arena: Test Cases/Backoffice/create_arena/1_arena
+
+2018-11-26 09:19:06 - [TEST_STEP][PASSED] - mj.loginBackoffice.login: mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:19:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-26 09:19:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 09:19:10 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 09:19:11 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-26 09:19:11 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/Backoffice/login_page/input_username'
+
+2018-11-26 09:19:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/login_page/input_password'
+
+2018-11-26 09:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/login_page/button_login' is clicked on
+
+2018-11-26 09:19:13 - [MESSAGE][PASSED] - mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:19:13 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:19:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:19:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:19:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-26 09:19:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-26 09:19:16 - [TEST_STEP][PASSED] - setText: Text 'SAN ROQUE COCKPIT (MARIKINA)' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:19:16 - [MESSAGE][PASSED] - Text 'SAN ROQUE COCKPIT (MARIKINA)' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:19:16 - [TEST_STEP][PASSED] - setText: Text 'SAN LUIS 1 COCK FASTEST KILL ' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:19:16 - [MESSAGE][PASSED] - Text 'SAN LUIS 1 COCK FASTEST KILL ' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:19:16 - [TEST_STEP][PASSED] - setText: Text 'SAN ROQUE COCKPIT (MARIKINA) - SRC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:19:17 - [MESSAGE][PASSED] - Text 'SAN ROQUE COCKPIT (MARIKINA) - SRC' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:19:17 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:19:17 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:19:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on
+
+2018-11-26 09:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/create_arena/1_arena" classname="Test Cases/Backoffice/create_arena/1_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-26 09:19:17 - [TEST_CASE][PASSED] - Test Cases/Backoffice/create_arena/1_arena: Test Cases/Backoffice/create_arena/1_arena
+
+2018-11-26 09:19:17 - [TEST_STEP][PASSED] - mj.loginBackoffice.login: mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:19:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-26 09:19:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 09:19:21 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 09:19:22 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-26 09:19:22 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/Backoffice/login_page/input_username'
+
+2018-11-26 09:19:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/login_page/input_password'
+
+2018-11-26 09:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/login_page/button_login' is clicked on
+
+2018-11-26 09:19:25 - [MESSAGE][PASSED] - mj.loginBackoffice.login is PASSED
+
+2018-11-26 09:19:25 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-11-26 09:19:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_arena' is clicked on
+
+2018-11-26 09:19:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/button_create_arena' is clicked on
+
+2018-11-26 09:19:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-26 09:19:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-26 09:19:28 - [TEST_STEP][PASSED] - setText: Text 'PASIG SQUARE GARDEN' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:19:28 - [MESSAGE][PASSED] - Text 'PASIG SQUARE GARDEN' is set on object 'Object Repository/Backoffice/arena_mgmt/input_arena_name'
+
+2018-11-26 09:19:28 - [TEST_STEP][PASSED] - setText: Text 'PASIG ULTIMATE CIRCUIT CLUB | 3 STAG DERBY' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:19:28 - [MESSAGE][PASSED] - Text 'PASIG ULTIMATE CIRCUIT CLUB | 3 STAG DERBY' is set on object 'Object Repository/Backoffice/arena_mgmt/input_event_name'
+
+2018-11-26 09:19:28 - [TEST_STEP][PASSED] - setText: Text 'PASIG SQUARE GARDEN - PSG' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:19:28 - [MESSAGE][PASSED] - Text 'PASIG SQUARE GARDEN - PSG' is set on object 'Object Repository/Backoffice/arena_mgmt/input_acronym'
+
+2018-11-26 09:19:28 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:19:29 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Backoffice/arena_mgmt/input_profit_margin'
+
+2018-11-26 09:19:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on
+
+2018-11-26 09:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/arena_mgmt/input_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-26 09:16:25 - [TEST_SUITE][FAILED] - create_arena_15: Test Cases/Backoffice/create_arena/1_arena FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'BACOLOR COCKPIT ARENA' of object 'Object Repository/Backoffice/arena_mgmt/input_arena_name' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Backoffice/arena_mgmt/input_arena_name' located by 'By.xpath: //input [@id="name"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1542966201393.run(Script1542966201393.groovy:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543194984063.run(TempTestSuite1543194984063.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-26 09:16:25 - [TEST_SUITE][FAILED] - create_arena_15: Test Cases/Backoffice/create_arena/1_arena FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'BACOLOR COCKPIT ARENA' of object 'Object Repository/Backoffice/arena_mgmt/input_arena_name' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Backoffice/arena_mgmt/input_arena_name' located by 'By.xpath: //input [@id="name"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1542966201393.run(Script1542966201393.groovy:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543194984063.run(TempTestSuite1543194984063.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

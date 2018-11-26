@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+160_match,Chrome 70.0.3538.102,,2018-11-26 13:13:59,2018-11-26 13:14:09,10.043s,FAILED
+,,,,,,
+Test Cases/Backoffice/create_match/100_match,Chrome 70.0.3538.102,,2018-11-26 13:14:00,2018-11-26 13:14:08,8.498s,FAILED
+mj.loginBackoffice.login,Chrome 70.0.3538.102,,2018-11-26 13:14:01,2018-11-26 13:14:08,7.444s,FAILED
