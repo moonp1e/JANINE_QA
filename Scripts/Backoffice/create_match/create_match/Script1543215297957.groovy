@@ -16,18 +16,19 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'mj.loginBackoffice.login'()
 
-for (loop = 1; loop <= 158; loop++) {
-    WebUI.mouseOver(findTestObject('Backoffice/headers/span_betting'))
+	WebUI.mouseOver(findTestObject('Backoffice/headers/span_betting'))
 
-    WebUI.delay(1)
+	WebUI.delay(1)
 
-    WebUI.waitForElementVisible(findTestObject('Backoffice/headers/span_match'), 2)
+	WebUI.waitForElementVisible(findTestObject('Backoffice/headers/span_match'), 2)
 
-    WebUI.click(findTestObject('Backoffice/headers/span_match'))
+	WebUI.click(findTestObject('Backoffice/headers/span_match'))
 
-    WebUI.delay(1)
+	WebUI.delay(1)
 
-    WebUI.verifyElementPresent(findTestObject('Backoffice/match_mgmt/input_submit_match'), 2)
+	WebUI.verifyElementPresent(findTestObject('Backoffice/match_mgmt/input_submit_match'), 2)
+
+for (loop = 1; loop <= 160; loop++) {
 
     WebUI.click(findTestObject('Backoffice/match_mgmt/button_create_match'))
 
