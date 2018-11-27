@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>create_match</name>
+   <name>create_match_loop_with_open_match</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b7a2ca9f-8c51-4552-98d0-fefc003fa96f</testCaseGuid>
+   <testCaseGuid>1d9ca84d-bcf9-4958-80ed-b41f54b06d3c</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c71abf00-3ef3-46b4-8d72-725dfcab9369</id>
-      <masked>false</masked>
-      <name>Arena_Acronym</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>fc73e001-ad37-4d27-a7fc-56d284ca48f9</id>
+      <id>e477f4f3-5782-4817-8ddf-4f0d743aa3a6</id>
       <masked>false</masked>
       <name>Meron_Name</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>94d3e71c-d2d0-484a-92b5-1f765f3a2765</id>
+      <id>37cd5390-4ef5-452a-816e-8fe53aa4ae7d</id>
       <masked>false</masked>
       <name>Meron_Farm</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>8e6017b4-252d-472c-89b3-366993306dbf</id>
+      <id>5bff116b-3196-4751-8c01-a5c7a6d696cf</id>
       <masked>false</masked>
       <name>Meron_Breed</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>66aa248e-457f-4798-8a60-db9e022baf08</id>
+      <id>cad2f8dc-f459-4c3e-8d14-57c5a7deb904</id>
       <masked>false</masked>
       <name>Meron_Weight</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>65969367-870c-4d34-b072-860979ae3bb9</id>
+      <id>689cf846-b267-4116-8f0f-ba87c06caf66</id>
       <masked>false</masked>
       <name>Wala_Name</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>5df20016-ae09-49ae-a64b-6806b1d76d7a</id>
+      <id>04b9f4a9-7d22-4055-9f93-b11bde4ffbc5</id>
       <masked>false</masked>
       <name>Wala_Farm</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>64fc16c1-779f-4104-8ae9-92850ec6aac0</id>
+      <id>2071c3a1-c5e7-4995-89d6-e6e82a8b6cab</id>
       <masked>false</masked>
       <name>Wala_Breed</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>4f4495fc-7ba9-46ce-a472-7918fd68739d</id>
+      <id>9d0e4237-c0f9-46e4-b7d8-9c3a1b84290a</id>
       <masked>false</masked>
       <name>Wala_Weight</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>93614a6e-fa6c-486f-8987-3dc68bcccb86</id>
+      <masked>false</masked>
+      <name>Arena_Acronym</name>
    </variable>
 </TestCaseEntity>

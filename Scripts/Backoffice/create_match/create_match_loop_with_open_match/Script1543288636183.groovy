@@ -26,9 +26,57 @@ CustomKeywords.'mj.loginBackoffice.login'()
 
 	WebUI.delay(1)
 
-	WebUI.verifyElementPresent(findTestObject('Backoffice/match_mgmt/input_submit_match'), 2)
+	WebUI.verifyElementPresent(findTestObject('Backoffice/match_mgmt/button_create_match'), 2)
+	
+	WebUI.click(findTestObject('Backoffice/match_mgmt/button_create_match'))
+	
+	WebUI.delay(1)
+	
+	WebUI.click(findTestObject('Backoffice/match_mgmt/span_select_arena_name'))
+	
+	WebUI.setText(findTestObject('Backoffice/match_mgmt/input__select2-search__arena_name'), Arena_Acronym)
+	
+	WebUI.sendKeys(findTestObject('Backoffice/match_mgmt/input__select2-search__arena_name'), Keys.chord(Keys.ENTER))
+	
+	WebUI.setText(findTestObject('Backoffice/match_mgmt/meron_details/input_meron_name'), Meron_Name)
+	
+	WebUI.setText(findTestObject('Backoffice/match_mgmt/meron_details/input_meron_farm'), Meron_Farm)
+	
+	WebUI.setText(findTestObject('Backoffice/match_mgmt/meron_details/input_meron_breed'), Meron_Breed)
+	
+	WebUI.setText(findTestObject('Backoffice/match_mgmt/meron_details/input_meron_weight'), Meron_Weight)
+	
+	WebUI.setText(findTestObject('Backoffice/match_mgmt/wala_details/input_wala_name'), Wala_Name)
+	
+	WebUI.setText(findTestObject('Backoffice/match_mgmt/wala_details/input_wala_farm'), Wala_Farm)
+	
+	WebUI.setText(findTestObject('Backoffice/match_mgmt/wala_details/input_wala_breed'), Wala_Breed)
+	
+	WebUI.setText(findTestObject('Backoffice/match_mgmt/wala_details/input_wala_weight'), Wala_Weight)
+	
+	WebUI.click(findTestObject('Backoffice/match_mgmt/input_submit_match'))
+	
+	WebUI.click(findTestObject('Backoffice/match_mgmt/span_link_match'))
+	
+	WebUI.switchToWindowIndex(1)
+	
+	WebUI.delay(1)
+	
+	WebUI.click(findTestObject('Backoffice/match_mgmt/open_match/button_open_match'))
+	
+	WebUI.waitForElementVisible(findTestObject('Backoffice/match_mgmt/settlement/button_finished_yes_i_agree'), 1)
+	
+	WebUI.click(findTestObject('Backoffice/match_mgmt/settlement/button_finished_yes_i_agree'))
+	
+	WebUI.delay(2)
+	
+	WebUI.closeWindowIndex(1)
+	
+	WebUI.switchToWindowIndex(0)
+	
+	WebUI.verifyElementPresent(findTestObject('Backoffice/match_mgmt/button_create_match'), 2)
 
-for (loop = 1; loop <= 160; loop++) {
+for (loop = 1; loop <= 159; loop++) {
 
     WebUI.click(findTestObject('Backoffice/match_mgmt/button_create_match'))
 

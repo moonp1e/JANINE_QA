@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>match_details</name>
+   <name>match_DRC</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>5b9bc6a1-ec63-4dff-9269-38392944e135</dataFileGUID>
-   <dataSourceUrl>Data Files/Backoffice/Match.xlsx</dataSourceUrl>
+   <dataFileGUID>90f03767-f564-43b8-8f12-c0ee02f5bf44</dataFileGUID>
+   <dataSourceUrl>Data Files/Excel files/match_DRC.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

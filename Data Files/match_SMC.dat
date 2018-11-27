@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>arena_details</name>
+   <name>match_SMC</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>ea96adb0-b9db-44f3-838c-ec26cb099cdc</dataFileGUID>
-   <dataSourceUrl>Data Files/Backoffice/Arena_15.xlsx</dataSourceUrl>
+   <dataFileGUID>bcd5ebb7-d886-47b5-8298-83f678646e04</dataFileGUID>
+   <dataSourceUrl>Data Files/Excel files/match_SMC.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
