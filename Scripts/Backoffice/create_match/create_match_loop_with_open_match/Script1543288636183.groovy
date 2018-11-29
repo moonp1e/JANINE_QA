@@ -64,7 +64,11 @@ CustomKeywords.'mj.loginBackoffice.login'()
 	
 	WebUI.click(findTestObject('Backoffice/match_mgmt/open_match/button_open_match'))
 	
+	WebUI.delay(1)
+	
 	WebUI.waitForElementVisible(findTestObject('Backoffice/match_mgmt/settlement/button_finished_yes_i_agree'), 1)
+	
+	WebUI.delay(1)
 	
 	WebUI.click(findTestObject('Backoffice/match_mgmt/settlement/button_finished_yes_i_agree'))
 	
@@ -75,8 +79,10 @@ CustomKeywords.'mj.loginBackoffice.login'()
 	WebUI.switchToWindowIndex(0)
 	
 	WebUI.verifyElementPresent(findTestObject('Backoffice/match_mgmt/button_create_match'), 2)
+	
+	WebUI.delay(1)
 
-for (loop = 1; loop <= 159; loop++) {
+for (loop = 1; loop <= 144; loop++) {
 
     WebUI.click(findTestObject('Backoffice/match_mgmt/button_create_match'))
 

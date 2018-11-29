@@ -33,11 +33,11 @@ float balance = Float.valueOf(balance)
 
 arenaPresent = WebUI.verifyElementPresent(findTestObject('Frontend/Betting/button_arena_ASC'), 1)
 
-matchPresent = WebUI.verifyElementPresent(findTestObject('Frontend/Betting/strong_match _details_ASC'), 1, FailureHandling.OPTIONAL)
+matchPresent = WebUI.verifyElementPresent(findTestObject('Frontend/Betting/strong_match_details_ATSC'), 1, FailureHandling.OPTIONAL)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-if (((balance > 100) && arenaPresent) && matchPresent) {
+if ((balance > 100) && arenaPresent && matchPresent) {
 
     List<WebElement> marketOdds
 
