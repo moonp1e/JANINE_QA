@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="match_SMC" time="307" tests="1" failures="0" errors="0">
+   <testsuite name="match_SMC" tests="1" failures="0" errors="0" time="307" timestamp="2018-12-14 11:05:35" hostname="Administrator - WIN-A9QUABO2G0M" id="Test Suites/Backoffice/create_match/create_match_loop_with_open_match/match_SMC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\JANINE_QA\\Reports\\Backoffice\\create_match\\create_match_loop_with_open_match\\match_SMC\\20181214_094924"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\JANINE_QA\\Reports\\Backoffice\\create_match\\create_match_loop_with_open_match\\match_SMC\\20181214_094924\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - WIN-A9QUABO2G0M"/>
+         <property name="os" value="Windows Server 2016 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.111.1"/>
+         <property name="sessionId" value="45c4a1c5e2a110248987f7b788323e50"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2016"/>
+      </properties>
+      <testcase name="Test Cases/DEV/Backoffice/create_match/create_match_loop_with_open_match" classname="Test Cases/DEV/Backoffice/create_match/create_match_loop_with_open_match" status="PASSED">
+         <system-out><![CDATA[2018-12-14 11:05:36 - [TEST_CASE][PASSED] - Test Cases/DEV/Backoffice/create_match/create_match_loop_with_open_match: Test Cases/DEV/Backoffice/create_match/create_match_loop_with_open_match
+
+2018-12-14 11:05:37 - [TEST_STEP][PASSED] - mj.loginBackofficeDev.login(): mj.loginBackofficeDev.login is PASSED
+
+2018-12-14 11:05:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-14 11:05:37 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-14 11:05:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-14 11:05:42 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-14 11:05:43 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-12-14 11:05:43 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/Backoffice/login_page/input_username'
+
+2018-12-14 11:05:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/login_page/input_password'
+
+2018-12-14 11:05:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/login_page/button_login' is clicked on
+
+2018-12-14 11:05:46 - [MESSAGE][PASSED] - mj.loginBackofficeDev.login is PASSED
+
+2018-12-14 11:05:46 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Backoffice/headers/span_betting")): Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-12-14 11:05:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_betting' is hovered
+
+2018-12-14 11:05:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:05:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:05:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Backoffice/headers/span_match"), 2): Object 'Object Repository/Backoffice/headers/span_match' is visible
+
+2018-12-14 11:05:47 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/headers/span_match' is visible
+
+2018-12-14 11:05:47 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/headers/span_match")): Object: 'Object Repository/Backoffice/headers/span_match' is clicked on
+
+2018-12-14 11:05:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/headers/span_match' is clicked on
+
+2018-12-14 11:05:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:05:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:05:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Backoffice/match_mgmt/button_create_match"), 2): Object 'Object Repository/Backoffice/match_mgmt/button_create_match' is present
+
+2018-12-14 11:05:56 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/match_mgmt/button_create_match' is present
+
+2018-12-14 11:05:56 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:05:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:05:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:05:57 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:05:57 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:06:00 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:06:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:06:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:06:00 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:06:00 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:06:00 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:06:01 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:06:01 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:06:01 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:06:01 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:06:02 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:06:02 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:06:02 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:06:02 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:06:03 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:06:03 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:06:03 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:06:03 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:06:04 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:06:04 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:06:08 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_link_match")): Object: 'Object Repository/Backoffice/match_mgmt/span_link_match' is clicked on
+
+2018-12-14 11:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_link_match' is clicked on
+
+2018-12-14 11:06:09 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2018-12-14 11:06:09 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-12-14 11:06:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:06:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:06:10 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/open_match/button_open_match")): Object: 'Object Repository/Backoffice/match_mgmt/open_match/button_open_match' is clicked on
+
+2018-12-14 11:06:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/open_match/button_open_match' is clicked on
+
+2018-12-14 11:06:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:06:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:06:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Backoffice/match_mgmt/settlement/button_finished_yes_i_agree"), 1): Object 'Object Repository/Backoffice/match_mgmt/settlement/button_finished_yes_i_agree' is visible
+
+2018-12-14 11:06:13 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/match_mgmt/settlement/button_finished_yes_i_agree' is visible
+
+2018-12-14 11:06:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:06:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:06:14 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/settlement/button_finished_yes_i_agree")): Object: 'Object Repository/Backoffice/match_mgmt/settlement/button_finished_yes_i_agree' is clicked on
+
+2018-12-14 11:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/settlement/button_finished_yes_i_agree' is clicked on
+
+2018-12-14 11:06:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 11:06:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 11:06:16 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2018-12-14 11:06:16 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2018-12-14 11:06:16 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2018-12-14 11:06:16 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-12-14 11:06:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Backoffice/match_mgmt/button_create_match"), 2): Object 'Object Repository/Backoffice/match_mgmt/button_create_match' is present
+
+2018-12-14 11:06:16 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/match_mgmt/button_create_match' is present
+
+2018-12-14 11:06:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:06:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:06:17 - [TEST_STEP][PASSED] - for ([loop = 1, loop <= 19, (loop++)]): Delayed 1 second(s)
+
+2018-12-14 11:06:17 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:06:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:06:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:06:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:06:18 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:06:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:06:19 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:06:21 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:06:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:06:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:06:21 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:06:22 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:06:22 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:06:22 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:06:22 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:06:23 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:06:23 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:06:23 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:06:23 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:06:23 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:06:23 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:06:24 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:06:24 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:06:24 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:06:24 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:06:25 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:06:25 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:06:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:06:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:06:33 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:06:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:06:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:06:34 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:06:35 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:06:37 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:06:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:06:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:06:37 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:06:37 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:06:37 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:06:38 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:06:38 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:06:38 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:06:38 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:06:39 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:06:39 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:06:39 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:06:39 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:06:39 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:06:40 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:06:40 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:06:40 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:06:40 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:06:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:06:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:06:46 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:06:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:06:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:06:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:06:48 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:06:48 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:06:50 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:06:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:06:50 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:06:50 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:06:51 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:06:51 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:06:51 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:06:51 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:06:52 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:06:52 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:06:52 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:06:52 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:06:53 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:06:53 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:06:53 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:06:53 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:06:53 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:06:53 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:06:54 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:06:54 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:06:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:07:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:07:00 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:07:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:07:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:07:01 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:07:02 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:07:04 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:07:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:07:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:07:04 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:07:04 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:07:04 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:07:05 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:07:05 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:07:05 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:07:05 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:07:06 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:07:06 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:07:06 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:07:06 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:07:06 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:07:06 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:07:07 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:07:07 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:07:07 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:07:07 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:07:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:07:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:07:14 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:07:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:07:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:07:15 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:07:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:07:15 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:07:18 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:07:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:07:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:07:18 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:07:19 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:07:19 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:07:19 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:07:19 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:07:20 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:07:20 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:07:20 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:07:20 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:07:20 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:07:20 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:07:21 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:07:21 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:07:21 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:07:21 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:07:22 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:07:22 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:07:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:07:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:07:29 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:07:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:07:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:07:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:07:30 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:07:31 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:07:33 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:07:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:07:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:07:33 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:07:33 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:07:33 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:07:34 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:07:34 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:07:34 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:07:34 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:07:35 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:07:35 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:07:35 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:07:35 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:07:35 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:07:35 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:07:36 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:07:36 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:07:36 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:07:36 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:07:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:07:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:07:42 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:07:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:07:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:07:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:07:44 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:07:44 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:07:46 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:07:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:07:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:07:47 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:07:47 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:07:47 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:07:47 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:07:47 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:07:48 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:07:48 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:07:48 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:07:48 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:07:49 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:07:49 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:07:49 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:07:49 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:07:50 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:07:50 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:07:50 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:07:50 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:07:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:07:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:07:57 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:07:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:07:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:07:58 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:07:59 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:01 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:01 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:08:01 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:08:01 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:08:02 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:08:02 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:08:02 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:08:02 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:08:03 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:08:03 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:08:03 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:08:03 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:08:03 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:08:03 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:08:04 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:08:04 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:08:04 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:08:04 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:08:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:08:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:08:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:08:11 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:08:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:08:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:08:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:08:13 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:08:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:08:13 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:15 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:15 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:08:16 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:08:16 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:08:16 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:08:16 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:08:17 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:08:17 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:08:17 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:08:17 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:08:18 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:08:18 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:08:18 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:08:18 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:08:19 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:08:19 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:08:19 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:08:19 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:08:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:08:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:08:27 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:08:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:08:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:08:28 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:08:29 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:30 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:31 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:08:31 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:08:31 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:08:31 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:08:31 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:08:32 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:08:32 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:08:32 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:08:32 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:08:33 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:08:33 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:08:33 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:08:33 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:08:34 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:08:34 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:08:34 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:08:34 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:08:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:08:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:08:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:08:41 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:08:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:08:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:08:43 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:08:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:08:43 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:45 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:46 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:08:46 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:08:46 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:08:46 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:08:46 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:08:47 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:08:47 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:08:47 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:08:47 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:08:48 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:08:48 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:08:48 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:08:48 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:08:48 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:08:48 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:08:49 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:08:49 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:08:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:08:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:08:54 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:08:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:08:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:08:56 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:08:56 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:58 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:58 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:08:58 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:08:59 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:08:59 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:08:59 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:08:59 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:08:59 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:08:59 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:09:00 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:09:00 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:09:00 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:09:00 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:09:01 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:09:01 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:09:01 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:09:01 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:09:02 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:09:02 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:09:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:09:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:09:07 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:09:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:09:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:09:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:09:08 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:09:11 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:09:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:09:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:09:11 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:09:11 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:09:11 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:09:12 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:09:12 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:09:12 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:09:12 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:09:13 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:09:13 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:09:13 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:09:13 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:09:13 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:09:13 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:09:14 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:09:14 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:09:14 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:09:14 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:09:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:09:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:09:20 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:09:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:09:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:09:22 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:09:22 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:09:24 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:09:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:09:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:09:24 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:09:24 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:09:24 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:09:25 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:09:25 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:09:25 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:09:25 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:09:26 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:09:26 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:09:26 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:09:26 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:09:27 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:09:27 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:09:27 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:09:27 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:09:28 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:09:28 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:09:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:09:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:09:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:09:33 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:09:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:09:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:09:35 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:09:35 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:09:37 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:09:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:09:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:09:37 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:09:38 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:09:38 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:09:38 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:09:38 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:09:39 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:09:39 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:09:39 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:09:39 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:09:40 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:09:40 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:09:40 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:09:40 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:09:40 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:09:40 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:09:41 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:09:41 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:09:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:09:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:09:48 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:09:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:09:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:09:49 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:09:49 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:09:52 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:09:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:09:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:09:52 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:09:52 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:09:52 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:09:53 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:09:53 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:09:53 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:09:53 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:09:54 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:09:54 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:09:54 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:09:54 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:09:54 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:09:54 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:09:55 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:09:55 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:09:55 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:09:55 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:10:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:10:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:10:01 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:10:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:10:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:10:03 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:10:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:10:03 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:10:05 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:10:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:10:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:10:05 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:10:06 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:10:06 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:10:06 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:10:06 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:10:07 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:10:07 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:10:07 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:10:07 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:10:08 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:10:08 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:10:08 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:10:08 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:10:08 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:10:08 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:10:09 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:10:09 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:10:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:10:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:10:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:10:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:10:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:10:17 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:10:19 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:10:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:10:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:10:19 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:10:20 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:10:20 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:10:20 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:10:20 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:10:20 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:10:20 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:10:21 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:10:21 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:10:21 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:10:21 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:10:22 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:10:22 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:10:22 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:10:22 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:10:23 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:10:23 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:10:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:10:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:10:29 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/button_create_match")): Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:10:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/button_create_match' is clicked on
+
+2018-12-14 11:10:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:10:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:10:31 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/span_select_arena_name")): Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:10:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/span_select_arena_name' is clicked on
+
+2018-12-14 11:10:31 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Arena_Acronym): Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:10:33 - [MESSAGE][PASSED] - Text 'STA. MONICA COCKPIT - SMC' is set on object 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:10:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Backoffice/match_mgmt/input__select2-search__arena_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:10:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Backoffice/match_mgmt/input__select2-search__arena_name'
+
+2018-12-14 11:10:33 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_name"), Meron_Name): Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:10:34 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_name'
+
+2018-12-14 11:10:34 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_farm"), Meron_Farm): Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:10:34 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_farm'
+
+2018-12-14 11:10:34 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_breed"), Meron_Breed): Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:10:35 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_breed'
+
+2018-12-14 11:10:35 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/meron_details/input_meron_weight"), Meron_Weight): Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:10:35 - [MESSAGE][PASSED] - Text 'Weight 1' is set on object 'Object Repository/Backoffice/match_mgmt/meron_details/input_meron_weight'
+
+2018-12-14 11:10:35 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_name"), Wala_Name): Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:10:35 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_name'
+
+2018-12-14 11:10:35 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_farm"), Wala_Farm): Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:10:36 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_farm'
+
+2018-12-14 11:10:36 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_breed"), Wala_Breed): Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:10:36 - [MESSAGE][PASSED] - Text 'Breed 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_breed'
+
+2018-12-14 11:10:36 - [TEST_STEP][PASSED] - setText(findTestObject("Backoffice/match_mgmt/wala_details/input_wala_weight"), Wala_Weight): Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:10:37 - [MESSAGE][PASSED] - Text 'Weight 2' is set on object 'Object Repository/Backoffice/match_mgmt/wala_details/input_wala_weight'
+
+2018-12-14 11:10:37 - [TEST_STEP][PASSED] - click(findTestObject("Backoffice/match_mgmt/input_submit_match")): Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:10:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/match_mgmt/input_submit_match' is clicked on
+
+2018-12-14 11:10:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:10:42 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-14 11:05:35 - [TEST_SUITE][PASSED] - match_SMC: Test Cases/DEV/Backoffice/create_match/create_match_loop_with_open_match]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

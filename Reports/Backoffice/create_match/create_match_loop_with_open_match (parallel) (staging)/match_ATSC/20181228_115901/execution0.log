@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-12-28T11:59:25</date>
+  <millis>1545969565468</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Backoffice/create_match/create_match_loop_with_open_match (parallel) (staging)/match_ATSC</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">match_ATSC</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Backoffice/create_match/create_match_loop_with_open_match (parallel) (staging)/match_ATSC</property>
+</record>
+<record>
+  <date>2018-12-28T11:59:25</date>
+  <millis>1545969565480</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Administrator - WIN-A9QUABO2G0M</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Administrator - WIN-A9QUABO2G0M</property>
+</record>
+<record>
+  <date>2018-12-28T11:59:25</date>
+  <millis>1545969565481</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows Server 2016 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows Server 2016 64bit</property>
+</record>
+<record>
+  <date>2018-12-28T11:59:25</date>
+  <millis>1545969565481</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.111.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.111.1</property>
+</record>
+<record>
+  <date>2018-12-28T11:59:25</date>
+  <millis>1545969565482</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.9.1.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.9.1.2</property>
+</record>
+<record>
+  <date>2018-12-28T11:59:25</date>
+  <millis>1545969565691</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/STAGING/Backoffice/create_match/create_match_15_users/create_match_loop_with_open_match_user2</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/STAGING/Backoffice/create_match/create_match_15_users/create_match_loop_with_open_match_user2</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/STAGING/Backoffice/create_match/create_match_15_users/create_match_loop_with_open_match_user2</property>
+  <property name="source">C:\\Users\\Administrator\\git\\JANINE_QA\\Test Cases\\STAGING\\Backoffice\\create_match\\create_match_15_users\\create_match_loop_with_open_match_user2.tc</property>
+  <property name="isOptional">false</property>
+</record>

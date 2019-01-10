@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+match_DC,Chrome 70.0.3538.110,,2018-12-10 08:56:12,2018-12-10 08:59:06,2m - 53.772s,PASSED
+,,,,,,
+Test Cases/Backoffice/create_match/create_match_loop_with_open_match,Chrome 70.0.3538.110,,2018-12-10 08:56:12,2018-12-10 08:59:05,2m - 52.365s,PASSED
+mj.loginBackoffice.login(),Chrome 70.0.3538.110,,2018-12-10 08:56:13,2018-12-10 08:56:22,8.683s,PASSED
+"mouseOver(findTestObject(""Backoffice/headers/span_betting""))",Chrome 70.0.3538.110,,2018-12-10 08:56:22,2018-12-10 08:56:22,0.222s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 08:56:22,2018-12-10 08:56:23,1.061s,PASSED
+"waitForElementVisible(findTestObject(""Backoffice/headers/span_match""), 2)",Chrome 70.0.3538.110,,2018-12-10 08:56:23,2018-12-10 08:56:23,0.137s,PASSED
+"click(findTestObject(""Backoffice/headers/span_match""))",Chrome 70.0.3538.110,,2018-12-10 08:56:23,2018-12-10 08:56:25,1.931s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 08:56:25,2018-12-10 08:56:26,1.002s,PASSED
+"verifyElementPresent(findTestObject(""Backoffice/match_mgmt/button_create_match""), 2)",Chrome 70.0.3538.110,,2018-12-10 08:56:26,2018-12-10 08:56:26,0.067s,PASSED
+"click(findTestObject(""Backoffice/match_mgmt/button_create_match""))",Chrome 70.0.3538.110,,2018-12-10 08:56:26,2018-12-10 08:56:27,0.176s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 08:56:27,2018-12-10 08:56:28,1.006s,PASSED
+"click(findTestObject(""Backoffice/match_mgmt/span_select_arena_name""))",Chrome 70.0.3538.110,,2018-12-10 08:56:28,2018-12-10 08:56:28,0.254s,PASSED
+"setText(findTestObject(""Backoffice/match_mgmt/input__select2-search__arena_name""), Arena_Acronym)",Chrome 70.0.3538.110,,2018-12-10 08:56:28,2018-12-10 08:56:29,0.877s,PASSED
+"sendKeys(findTestObject(""Backoffice/match_mgmt/input__select2-search__arena_name""), Keys.chord(ENTER))",Chrome 70.0.3538.110,,2018-12-10 08:56:29,2018-12-10 08:56:29,0.145s,PASSED
+"setText(findTestObject(""Backoffice/match_mgmt/meron_details/input_meron_name""), Meron_Name)",Chrome 70.0.3538.110,,2018-12-10 08:56:29,2018-12-10 08:56:29,0.331s,PASSED
+"setText(findTestObject(""Backoffice/match_mgmt/meron_details/input_meron_farm""), Meron_Farm)",Chrome 70.0.3538.110,,2018-12-10 08:56:29,2018-12-10 08:56:30,0.364s,PASSED
+"setText(findTestObject(""Backoffice/match_mgmt/meron_details/input_meron_breed""), Meron_Breed)",Chrome 70.0.3538.110,,2018-12-10 08:56:30,2018-12-10 08:56:30,0.409s,PASSED
+"setText(findTestObject(""Backoffice/match_mgmt/meron_details/input_meron_weight""), Meron_Weight)",Chrome 70.0.3538.110,,2018-12-10 08:56:30,2018-12-10 08:56:30,0.411s,PASSED
+"setText(findTestObject(""Backoffice/match_mgmt/wala_details/input_wala_name""), Wala_Name)",Chrome 70.0.3538.110,,2018-12-10 08:56:30,2018-12-10 08:56:31,0.252s,PASSED
+"setText(findTestObject(""Backoffice/match_mgmt/wala_details/input_wala_farm""), Wala_Farm)",Chrome 70.0.3538.110,,2018-12-10 08:56:31,2018-12-10 08:56:31,0.383s,PASSED
+"setText(findTestObject(""Backoffice/match_mgmt/wala_details/input_wala_breed""), Wala_Breed)",Chrome 70.0.3538.110,,2018-12-10 08:56:31,2018-12-10 08:56:31,0.356s,PASSED
+"setText(findTestObject(""Backoffice/match_mgmt/wala_details/input_wala_weight""), Wala_Weight)",Chrome 70.0.3538.110,,2018-12-10 08:56:31,2018-12-10 08:56:32,0.378s,PASSED
+"click(findTestObject(""Backoffice/match_mgmt/input_submit_match""))",Chrome 70.0.3538.110,,2018-12-10 08:56:32,2018-12-10 08:56:33,1.633s,PASSED
+"click(findTestObject(""Backoffice/match_mgmt/span_link_match""))",Chrome 70.0.3538.110,,2018-12-10 08:56:33,2018-12-10 08:56:34,0.306s,PASSED
+switchToWindowIndex(1),Chrome 70.0.3538.110,,2018-12-10 08:56:34,2018-12-10 08:56:34,0.056s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 08:56:34,2018-12-10 08:56:35,1.006s,PASSED
+"click(findTestObject(""Backoffice/match_mgmt/open_match/button_open_match""))",Chrome 70.0.3538.110,,2018-12-10 08:56:35,2018-12-10 08:56:36,1.254s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 08:56:36,2018-12-10 08:56:37,1.002s,PASSED
+"waitForElementVisible(findTestObject(""Backoffice/match_mgmt/settlement/button_finished_yes_i_agree""), 1)",Chrome 70.0.3538.110,,2018-12-10 08:56:37,2018-12-10 08:56:37,0.131s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 08:56:37,2018-12-10 08:56:38,1.003s,PASSED
+"click(findTestObject(""Backoffice/match_mgmt/settlement/button_finished_yes_i_agree""))",Chrome 70.0.3538.110,,2018-12-10 08:56:38,2018-12-10 08:56:38,0.187s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-10 08:56:38,2018-12-10 08:56:40,2.004s,PASSED
+closeWindowIndex(1),Chrome 70.0.3538.110,,2018-12-10 08:56:40,2018-12-10 08:56:40,0.093s,PASSED
+switchToWindowIndex(0),Chrome 70.0.3538.110,,2018-12-10 08:56:40,2018-12-10 08:56:40,0.025s,PASSED
+"verifyElementPresent(findTestObject(""Backoffice/match_mgmt/button_create_match""), 2)",Chrome 70.0.3538.110,,2018-12-10 08:56:41,2018-12-10 08:56:41,0.040s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 08:56:41,2018-12-10 08:56:42,1.003s,PASSED
+"for ([loop = 1, loop <= 19, (loop++)])",Chrome 70.0.3538.110,,2018-12-10 08:56:42,2018-12-10 08:59:05,2m - 23.294s,PASSED

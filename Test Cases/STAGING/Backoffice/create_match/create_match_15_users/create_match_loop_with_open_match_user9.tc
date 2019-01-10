@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>create_match_loop_with_open_match_user9</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0fa9c7c2-67f8-4e30-9389-a533c008f71c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>62ee8944-c87c-4ba9-8185-9d531dc9b9ba</id>
+      <masked>false</masked>
+      <name>Meron_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dc5612b6-eaf9-431e-9256-e460d79554cf</id>
+      <masked>false</masked>
+      <name>Meron_Weight</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fcb0845a-e933-40c3-80d6-7e2938ec0398</id>
+      <masked>false</masked>
+      <name>Wala_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3039ce3a-1d52-48b0-a679-d59e47af63f1</id>
+      <masked>false</masked>
+      <name>Wala_Weight</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9517ff52-7704-4fb5-81ee-cf791945d89b</id>
+      <masked>false</masked>
+      <name>Arena_Acronym</name>
+   </variable>
+</TestCaseEntity>

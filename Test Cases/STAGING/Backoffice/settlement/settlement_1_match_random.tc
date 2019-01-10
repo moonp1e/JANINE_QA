@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>settlement_1_match_random</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c82c2e9f-9178-4cb7-b2f8-58dd772235b1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fdbe12a6-f176-4810-afb7-85565793d6bd</id>
+      <masked>false</masked>
+      <name>Arena_Acronym</name>
+   </variable>
+</TestCaseEntity>

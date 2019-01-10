@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+match_RMC,Chrome 71.0.3578.98,,2019-01-02 14:21:05,2019-01-02 14:21:29,24.081s,FAILED
+,,,,,,
+Test Cases/STAGING/Backoffice/create_match/create_match_15_users/create_match_loop_with_open_match_user12,Chrome 71.0.3578.98,,2019-01-02 14:21:05,2019-01-02 14:21:28,22.377s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-02 14:21:08,2019-01-02 14:21:12,4.266s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-02 14:21:12,2019-01-02 14:21:13,1.233s,PASSED
+"navigateToUrl(""http://staging-admin.ucf88.com/login"")",Chrome 71.0.3578.98,,2019-01-02 14:21:13,2019-01-02 14:21:17,3.807s,PASSED
+"setText(findTestObject(""Backoffice/login_page/input_username""), ""admin12"")",Chrome 71.0.3578.98,,2019-01-02 14:21:17,2019-01-02 14:21:17,0.244s,PASSED
+"mouseOver(findTestObject(""Backoffice/headers/span_betting""))",Chrome 71.0.3578.98,,2019-01-02 14:21:17,2019-01-02 14:21:28,10.495s,FAILED

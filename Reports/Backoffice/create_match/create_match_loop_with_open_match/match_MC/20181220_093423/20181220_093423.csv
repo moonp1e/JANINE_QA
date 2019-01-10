@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+match_MC,Chrome 71.0.3578.98,,2018-12-20 09:40:14,2018-12-20 09:40:29,15.802s,FAILED
+,,,,,,
+Test Cases/DEV/Backoffice/create_match/create_match_loop_with_open_match,Chrome 71.0.3578.98,,2018-12-20 09:40:14,2018-12-20 09:40:29,14.550s,FAILED
+mj.loginBackofficeDev.login(),Chrome 71.0.3578.98,,2018-12-20 09:40:15,2018-12-20 09:40:25,9.822s,PASSED
+"mouseOver(findTestObject(""Backoffice/headers/span_betting""))",Chrome 71.0.3578.98,,2018-12-20 09:40:25,2018-12-20 09:40:25,0.335s,PASSED
+delay(1),Chrome 71.0.3578.98,,2018-12-20 09:40:25,2018-12-20 09:40:26,1.055s,PASSED
+"waitForElementVisible(findTestObject(""Backoffice/headers/span_match""), 2)",Chrome 71.0.3578.98,,2018-12-20 09:40:26,2018-12-20 09:40:29,2.161s,PASSED
+"click(findTestObject(""Backoffice/headers/span_match""))",Chrome 71.0.3578.98,,2018-12-20 09:40:29,2018-12-20 09:40:29,0.101s,FAILED

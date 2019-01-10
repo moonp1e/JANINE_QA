@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+match_ATSC,Chrome 71.0.3578.98,,2019-01-08 10:15:39,2019-01-08 10:16:07,27.950s,FAILED
+,,,,,,
+Test Cases/DEV/Backoffice/create_match/create_match_loop_with_open_match,Chrome 71.0.3578.98,,2019-01-08 10:15:40,2019-01-08 10:16:06,26.152s,FAILED
+mj.loginBackofficeDev.login(),Chrome 71.0.3578.98,,2019-01-08 10:15:41,2019-01-08 10:15:56,14.375s,PASSED
+"mouseOver(findTestObject(""Backoffice/headers/span_betting""))",Chrome 71.0.3578.98,,2019-01-08 10:15:56,2019-01-08 10:16:06,10.668s,FAILED

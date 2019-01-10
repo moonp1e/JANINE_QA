@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+match_ATSC,Chrome 70.0.3538.110,,2018-12-05 08:55:51,2018-12-05 08:56:09,18.384s,FAILED
+,,,,,,
+Test Cases/Backoffice/create_match/create_match_loop_with_open_match,Chrome 70.0.3538.110,,2018-12-05 08:55:51,2018-12-05 08:56:08,16.964s,FAILED
+mj.loginBackoffice.login(),Chrome 70.0.3538.110,,2018-12-05 08:55:52,2018-12-05 08:56:08,15.954s,FAILED

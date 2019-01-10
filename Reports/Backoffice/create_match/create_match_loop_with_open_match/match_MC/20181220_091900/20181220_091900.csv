@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+match_MC,Chrome 71.0.3578.98,,2018-12-20 09:24:58,2018-12-20 09:25:33,35.404s,FAILED
+,,,,,,
+Test Cases/DEV/Backoffice/create_match/create_match_loop_with_open_match,Chrome 71.0.3578.98,,2018-12-20 09:24:58,2018-12-20 09:25:33,34.315s,FAILED
+mj.loginBackofficeDev.login(),Chrome 71.0.3578.98,,2018-12-20 09:24:59,2018-12-20 09:25:08,8.726s,PASSED
+"mouseOver(findTestObject(""Backoffice/headers/span_betting""))",Chrome 71.0.3578.98,,2018-12-20 09:25:08,2018-12-20 09:25:08,0.312s,PASSED
+delay(1),Chrome 71.0.3578.98,,2018-12-20 09:25:08,2018-12-20 09:25:09,1.049s,PASSED
+"waitForElementVisible(findTestObject(""Backoffice/headers/span_match""), 2)",Chrome 71.0.3578.98,,2018-12-20 09:25:09,2018-12-20 09:25:09,0.125s,PASSED
+"click(findTestObject(""Backoffice/headers/span_match""))",Chrome 71.0.3578.98,,2018-12-20 09:25:09,2018-12-20 09:25:16,6.994s,PASSED
+delay(1),Chrome 71.0.3578.98,,2018-12-20 09:25:16,2018-12-20 09:25:17,1.007s,PASSED
+"verifyElementPresent(findTestObject(""Backoffice/match_mgmt/button_create_match""), 2)",Chrome 71.0.3578.98,,2018-12-20 09:25:17,2018-12-20 09:25:18,0.108s,PASSED
+"click(findTestObject(""Backoffice/match_mgmt/button_create_match""))",Chrome 71.0.3578.98,,2018-12-20 09:25:18,2018-12-20 09:25:18,0.297s,PASSED
+delay(1),Chrome 71.0.3578.98,,2018-12-20 09:25:18,2018-12-20 09:25:19,1.003s,PASSED
+"click(findTestObject(""Backoffice/match_mgmt/span_select_arena_name""))",Chrome 71.0.3578.98,,2018-12-20 09:25:19,2018-12-20 09:25:19,0.331s,PASSED
+"setText(findTestObject(""Backoffice/match_mgmt/input__select2-search__arena_name""), Arena_Acronym)",Chrome 71.0.3578.98,,2018-12-20 09:25:19,2018-12-20 09:25:21,2.036s,PASSED
+"sendKeys(findTestObject(""Backoffice/match_mgmt/input__select2-search__arena_name""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2018-12-20 09:25:21,2018-12-20 09:25:21,0.194s,PASSED
+"setText(findTestObject(""Backoffice/match_mgmt/meron_details/input_meron_name""), Meron_Name)",Chrome 71.0.3578.98,,2018-12-20 09:25:21,2018-12-20 09:25:22,0.364s,PASSED
+"setText(findTestObject(""Backoffice/match_mgmt/meron_details/input_meron_farm""), Meron_Farm)",Chrome 71.0.3578.98,,2018-12-20 09:25:22,2018-12-20 09:25:33,10.902s,FAILED

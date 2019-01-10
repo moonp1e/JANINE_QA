@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>create_arena</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9949abcf-0b20-4e51-a949-0d14168c18f5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9b54cac4-2a18-479c-b7d7-b8597d1a73ed</id>
+      <masked>false</masked>
+      <name>Arena_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>80bf22d2-5d7c-4bdf-97b4-fd9f50e93086</id>
+      <masked>false</masked>
+      <name>Event_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d42a4e21-9e96-4264-97ff-8dbe3d772756</id>
+      <masked>false</masked>
+      <name>Acronym</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a56e4402-aef3-45c7-8c1f-315507b5eb69</id>
+      <masked>false</masked>
+      <name>Profit_Margin</name>
+   </variable>
+</TestCaseEntity>

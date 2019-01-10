@@ -4,7 +4,7 @@
    <name>15_arena</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-26T09:23:34</lastRun>
+   <lastRun>2018-12-07T10:51:54</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>10</pageLoadTimeout>
@@ -15,7 +15,7 @@
       <guid>39e2a095-66fe-4d89-81b2-c615ee4918af</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Backoffice/create_arena/create_arena</testCaseId>
+      <testCaseId>Test Cases/DEV/Backoffice/create_arena/create_arena</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b92f9cfb-9e41-4ab1-af7b-cec9bda4eb89</id>
@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Backoffice/match_details</testDataId>
+         <testDataId>Data Files/match_details</testDataId>
       </testDataLink>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -32,10 +32,10 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Backoffice/arena_details</testDataId>
+         <testDataId>Data Files/15_arena</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>b92f9cfb-9e41-4ab1-af7b-cec9bda4eb89</testDataLinkId>
+         <testDataLinkId>aa1650f3-a823-446c-9eaa-39ca5afec5ed</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Arena_Name</value>
          <variableId>59327247-ddf5-4913-a596-e932d1e68ac6</variableId>

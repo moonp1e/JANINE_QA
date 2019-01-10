@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+match_BCA,Chrome 70.0.3538.110,,2018-12-03 09:41:39,2018-12-03 09:42:23,43.580s,FAILED
+,,,,,,
+Test Cases/Backoffice/create_match/create_match_loop_with_open_match,Chrome 70.0.3538.110,,2018-12-03 09:41:40,2018-12-03 09:42:22,42.076s,FAILED
+mj.loginBackoffice.login(),Chrome 70.0.3538.110,,2018-12-03 09:41:41,2018-12-03 09:42:05,23.841s,PASSED
+"mouseOver(findTestObject(""Backoffice/headers/span_betting""))",Chrome 70.0.3538.110,,2018-12-03 09:42:05,2018-12-03 09:42:05,0.178s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-03 09:42:05,2018-12-03 09:42:06,1.049s,PASSED
+"waitForElementVisible(findTestObject(""Backoffice/headers/span_match""), 2)",Chrome 70.0.3538.110,,2018-12-03 09:42:06,2018-12-03 09:42:06,0.130s,PASSED
+"click(findTestObject(""Backoffice/headers/span_match""))",Chrome 70.0.3538.110,,2018-12-03 09:42:06,2018-12-03 09:42:19,12.981s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-03 09:42:19,2018-12-03 09:42:20,1.004s,PASSED
+"verifyElementPresent(findTestObject(""Backoffice/match_mgmt/button_create_match""), 2)",Chrome 70.0.3538.110,,2018-12-03 09:42:20,2018-12-03 09:42:20,0.258s,PASSED
+"click(findTestObject(""Backoffice/match_mgmt/button_create_match""))",Chrome 70.0.3538.110,,2018-12-03 09:42:20,2018-12-03 09:42:21,0.361s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-03 09:42:21,2018-12-03 09:42:22,1.002s,PASSED
+"click(findTestObject(""Backoffice/match_mgmt/span_select_arena_name""))",Chrome 70.0.3538.110,,2018-12-03 09:42:22,2018-12-03 09:42:22,0.222s,FAILED

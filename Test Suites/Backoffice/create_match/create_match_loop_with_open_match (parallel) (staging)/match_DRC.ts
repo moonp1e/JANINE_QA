@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>match_DRC</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>8c4a2d8f-01cd-4328-9fd4-6fc10a73c3c7</testSuiteGuid>
+   <testCaseLink>
+      <guid>5e129b57-7b26-4f68-8e43-88290192b7e0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/STAGING/Backoffice/create_match/create_match_15_users/create_match_loop_with_open_match_user7</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>02ea1a7c-dbe3-4097-9c8a-37fd32f7e22c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/match_DRC</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>02ea1a7c-dbe3-4097-9c8a-37fd32f7e22c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Meron_Name</value>
+         <variableId>0d6fd1a3-ba3e-4c42-9630-d28c36bcc3f5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>02ea1a7c-dbe3-4097-9c8a-37fd32f7e22c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Meron_Weight</value>
+         <variableId>e0e0cf05-20e6-460c-aa13-aabeee988cfe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>02ea1a7c-dbe3-4097-9c8a-37fd32f7e22c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Wala_Name</value>
+         <variableId>4e7037ba-7783-4817-8c5f-099f18b5023d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>02ea1a7c-dbe3-4097-9c8a-37fd32f7e22c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Wala_Weight</value>
+         <variableId>32b5c7ff-f6ce-48f9-a7e5-78297f19cf51</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>02ea1a7c-dbe3-4097-9c8a-37fd32f7e22c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Arena_Acronym </value>
+         <variableId>82459dd8-0b50-409d-aa56-a7b895b98ed2</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

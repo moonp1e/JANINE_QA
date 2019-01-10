@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+match_CCAC,Chrome 70.0.3538.110,,2018-12-05 08:57:00,2018-12-05 08:57:18,17.903s,FAILED
+,,,,,,
+Test Cases/Backoffice/create_match/create_match_loop_with_open_match,Chrome 70.0.3538.110,,2018-12-05 08:57:00,2018-12-05 08:57:17,16.510s,FAILED
+mj.loginBackoffice.login(),Chrome 70.0.3538.110,,2018-12-05 08:57:01,2018-12-05 08:57:17,15.810s,FAILED

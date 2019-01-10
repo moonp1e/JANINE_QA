@@ -15,7 +15,7 @@
       <guid>08ac43a9-abcc-4538-94b9-2aa84e3d998b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Backoffice/create_arena/create_arena</testCaseId>
+      <testCaseId>Test Cases/DEV/Backoffice/create_arena/create_arena</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>5fd1045c-ba1e-4190-a973-0eb058bdf88d</id>
